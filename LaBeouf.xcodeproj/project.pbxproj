@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		2FEFBF842098F9D500B9B8D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFBF832098F9D500B9B8D7 /* AppDelegate.swift */; };
-		2FEFBF862098F9D500B9B8D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFBF852098F9D500B9B8D7 /* ViewController.swift */; };
+		2FEFBF862098F9D500B9B8D7 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFBF852098F9D500B9B8D7 /* MainController.swift */; };
 		2FEFBF892098F9D500B9B8D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFBF872098F9D500B9B8D7 /* Main.storyboard */; };
 		2FEFBF8B2098F9D500B9B8D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFBF8A2098F9D500B9B8D7 /* Assets.xcassets */; };
 		2FEFBF8E2098F9D500B9B8D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFBF8C2098F9D500B9B8D7 /* LaunchScreen.storyboard */; };
+		2FEFBF962098FA2F00B9B8D7 /* DialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFBF952098FA2F00B9B8D7 /* DialogController.swift */; };
+		2FEFBF982098FA7000B9B8D7 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFBF972098FA7000B9B8D7 /* VideoController.swift */; };
+		2FEFBF9B2098FA9A00B9B8D7 /* VideoControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFBF9A2098FA9A00B9B8D7 /* VideoControllerFactory.swift */; };
+		2FEFBF9D2098FABE00B9B8D7 /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFBF9C2098FABE00B9B8D7 /* PopAnimator.swift */; };
+		2FEFBFA22098FB1D00B9B8D7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFBFA12098FB1D00B9B8D7 /* Extensions.swift */; };
+		2FEFBFA42098FB4200B9B8D7 /* bg-video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFBFA32098FB4200B9B8D7 /* bg-video.mov */; };
+		2FEFBFA82098FB7D00B9B8D7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFBFA72098FB7D00B9B8D7 /* CustomButton.swift */; };
+		2FEFBFB42098FC8500B9B8D7 /* CirceRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFBFAF2098FC7800B9B8D7 /* CirceRounded-Bold.otf */; };
+		2FEFBFB52098FC8500B9B8D7 /* CirceRounded-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFBFAE2098FC7800B9B8D7 /* CirceRounded-ExtraBold.otf */; };
+		2FEFBFB62098FC8500B9B8D7 /* CirceRounded-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFBFAC2098FC7700B9B8D7 /* CirceRounded-ExtraLight.otf */; };
+		2FEFBFB72098FC8500B9B8D7 /* CirceRounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFBFB12098FC7800B9B8D7 /* CirceRounded-Light.otf */; };
+		2FEFBFB82098FC8500B9B8D7 /* CirceRounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFBFAD2098FC7800B9B8D7 /* CirceRounded-Regular.otf */; };
+		2FEFBFB92098FC8500B9B8D7 /* CirceRounded-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFBFB22098FC7800B9B8D7 /* CirceRounded-Thin.otf */; };
+		2FEFBFBA2098FC8500B9B8D7 /* CirceRoundedAlt-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFBFB32098FC7900B9B8D7 /* CirceRoundedAlt-Bold.otf */; };
+		2FEFBFBB2098FC8500B9B8D7 /* CirceRoundedAlt-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FEFBFB02098FC7800B9B8D7 /* CirceRoundedAlt-ExtraBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FEFBF802098F9D500B9B8D7 /* LaBeouf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaBeouf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEFBF832098F9D500B9B8D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FEFBF852098F9D500B9B8D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FEFBF852098F9D500B9B8D7 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		2FEFBF882098F9D500B9B8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FEFBF8A2098F9D500B9B8D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FEFBF8D2098F9D500B9B8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FEFBF8F2098F9D500B9B8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEFBF952098FA2F00B9B8D7 /* DialogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogController.swift; sourceTree = "<group>"; };
+		2FEFBF972098FA7000B9B8D7 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		2FEFBF9A2098FA9A00B9B8D7 /* VideoControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoControllerFactory.swift; sourceTree = "<group>"; };
+		2FEFBF9C2098FABE00B9B8D7 /* PopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
+		2FEFBFA12098FB1D00B9B8D7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2FEFBFA32098FB4200B9B8D7 /* bg-video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "bg-video.mov"; sourceTree = "<group>"; };
+		2FEFBFA72098FB7D00B9B8D7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		2FEFBFAC2098FC7700B9B8D7 /* CirceRounded-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CirceRounded-ExtraLight.otf"; sourceTree = "<group>"; };
+		2FEFBFAD2098FC7800B9B8D7 /* CirceRounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CirceRounded-Regular.otf"; sourceTree = "<group>"; };
+		2FEFBFAE2098FC7800B9B8D7 /* CirceRounded-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CirceRounded-ExtraBold.otf"; sourceTree = "<group>"; };
+		2FEFBFAF2098FC7800B9B8D7 /* CirceRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CirceRounded-Bold.otf"; sourceTree = "<group>"; };
+		2FEFBFB02098FC7800B9B8D7 /* CirceRoundedAlt-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CirceRoundedAlt-ExtraBold.otf"; sourceTree = "<group>"; };
+		2FEFBFB12098FC7800B9B8D7 /* CirceRounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CirceRounded-Light.otf"; sourceTree = "<group>"; };
+		2FEFBFB22098FC7800B9B8D7 /* CirceRounded-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CirceRounded-Thin.otf"; sourceTree = "<group>"; };
+		2FEFBFB32098FC7900B9B8D7 /* CirceRoundedAlt-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CirceRoundedAlt-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +84,85 @@
 		2FEFBF822098F9D500B9B8D7 /* LaBeouf */ = {
 			isa = PBXGroup;
 			children = (
-				2FEFBF832098F9D500B9B8D7 /* AppDelegate.swift */,
-				2FEFBF852098F9D500B9B8D7 /* ViewController.swift */,
-				2FEFBF872098F9D500B9B8D7 /* Main.storyboard */,
-				2FEFBF8A2098F9D500B9B8D7 /* Assets.xcassets */,
-				2FEFBF8C2098F9D500B9B8D7 /* LaunchScreen.storyboard */,
-				2FEFBF8F2098F9D500B9B8D7 /* Info.plist */,
+				2FEFBFA92098FB8C00B9B8D7 /* Views */,
+				2FEFBF9E2098FAD700B9B8D7 /* Models */,
+				2FEFBF992098FA8400B9B8D7 /* Controllers */,
+				2FEFBFA02098FAFC00B9B8D7 /* Storyboards */,
+				2FEFBF9F2098FAEB00B9B8D7 /* SupportFiles */,
 			);
 			path = LaBeouf;
+			sourceTree = "<group>";
+		};
+		2FEFBF992098FA8400B9B8D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFBF852098F9D500B9B8D7 /* MainController.swift */,
+				2FEFBF952098FA2F00B9B8D7 /* DialogController.swift */,
+				2FEFBF972098FA7000B9B8D7 /* VideoController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2FEFBF9E2098FAD700B9B8D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFBF9A2098FA9A00B9B8D7 /* VideoControllerFactory.swift */,
+				2FEFBF9C2098FABE00B9B8D7 /* PopAnimator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FEFBF9F2098FAEB00B9B8D7 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFBFAA2098FC5B00B9B8D7 /* Fonts */,
+				2FEFBF832098F9D500B9B8D7 /* AppDelegate.swift */,
+				2FEFBFA12098FB1D00B9B8D7 /* Extensions.swift */,
+				2FEFBF8A2098F9D500B9B8D7 /* Assets.xcassets */,
+				2FEFBFA32098FB4200B9B8D7 /* bg-video.mov */,
+				2FEFBF8F2098F9D500B9B8D7 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		2FEFBFA02098FAFC00B9B8D7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFBF872098F9D500B9B8D7 /* Main.storyboard */,
+				2FEFBF8C2098F9D500B9B8D7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2FEFBFA92098FB8C00B9B8D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFBFA72098FB7D00B9B8D7 /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2FEFBFAA2098FC5B00B9B8D7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFBFAB2098FC6C00B9B8D7 /* CirceRounded */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2FEFBFAB2098FC6C00B9B8D7 /* CirceRounded */ = {
+			isa = PBXGroup;
+			children = (
+				2FEFBFAF2098FC7800B9B8D7 /* CirceRounded-Bold.otf */,
+				2FEFBFAE2098FC7800B9B8D7 /* CirceRounded-ExtraBold.otf */,
+				2FEFBFAC2098FC7700B9B8D7 /* CirceRounded-ExtraLight.otf */,
+				2FEFBFB12098FC7800B9B8D7 /* CirceRounded-Light.otf */,
+				2FEFBFAD2098FC7800B9B8D7 /* CirceRounded-Regular.otf */,
+				2FEFBFB22098FC7800B9B8D7 /* CirceRounded-Thin.otf */,
+				2FEFBFB32098FC7900B9B8D7 /* CirceRoundedAlt-Bold.otf */,
+				2FEFBFB02098FC7800B9B8D7 /* CirceRoundedAlt-ExtraBold.otf */,
+			);
+			path = CirceRounded;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +223,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FEFBFB42098FC8500B9B8D7 /* CirceRounded-Bold.otf in Resources */,
+				2FEFBFB52098FC8500B9B8D7 /* CirceRounded-ExtraBold.otf in Resources */,
+				2FEFBFB62098FC8500B9B8D7 /* CirceRounded-ExtraLight.otf in Resources */,
+				2FEFBFB72098FC8500B9B8D7 /* CirceRounded-Light.otf in Resources */,
+				2FEFBFB82098FC8500B9B8D7 /* CirceRounded-Regular.otf in Resources */,
+				2FEFBFB92098FC8500B9B8D7 /* CirceRounded-Thin.otf in Resources */,
+				2FEFBFBA2098FC8500B9B8D7 /* CirceRoundedAlt-Bold.otf in Resources */,
+				2FEFBFBB2098FC8500B9B8D7 /* CirceRoundedAlt-ExtraBold.otf in Resources */,
 				2FEFBF8E2098F9D500B9B8D7 /* LaunchScreen.storyboard in Resources */,
+				2FEFBFA42098FB4200B9B8D7 /* bg-video.mov in Resources */,
 				2FEFBF8B2098F9D500B9B8D7 /* Assets.xcassets in Resources */,
 				2FEFBF892098F9D500B9B8D7 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +245,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FEFBF862098F9D500B9B8D7 /* ViewController.swift in Sources */,
+				2FEFBF962098FA2F00B9B8D7 /* DialogController.swift in Sources */,
+				2FEFBF9B2098FA9A00B9B8D7 /* VideoControllerFactory.swift in Sources */,
+				2FEFBF862098F9D500B9B8D7 /* MainController.swift in Sources */,
 				2FEFBF842098F9D500B9B8D7 /* AppDelegate.swift in Sources */,
+				2FEFBFA82098FB7D00B9B8D7 /* CustomButton.swift in Sources */,
+				2FEFBF9D2098FABE00B9B8D7 /* PopAnimator.swift in Sources */,
+				2FEFBF982098FA7000B9B8D7 /* VideoController.swift in Sources */,
+				2FEFBFA22098FB1D00B9B8D7 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +398,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5798R55AC9;
-				INFOPLIST_FILE = LaBeouf/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LaBeouf/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +417,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5798R55AC9;
-				INFOPLIST_FILE = LaBeouf/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LaBeouf/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
